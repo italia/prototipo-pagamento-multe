@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+< !DOCTYPE html>
+  <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,18 +26,23 @@
       }
     </style>
   </head>
+
   <body>
     <script>
       window.addEventListener("DOMContentLoaded", (event) => {
-        console.log("general data page loaded");
+          console.log("general data page loaded");
 
-        document.body.addEventListener("click", (event) => {
-          window.location.href = window.location.href.replace(
-            "spid-1",
-            "spid-2"
+          document.body.addEventListener("click", (event) => {
+              window.location.href = window.location.href.replace("spid-1",
+                "spid-2"
+              );
+            }
+
           );
-        });
-      });
+        }
+
+      );
     </script>
   </body>
-</html>
+
+  </html>
