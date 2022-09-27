@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const notificationDate = document.getElementById("notification-date");
   const fineDetectionDate = document.getElementById("fine-detection-date");
 
-  const confirmDataBtn = document.getElementById("confirm-data-btn");
+  // const confirmDataBtn = document.getElementById("confirm-data-btn");
 
   function padTo2Digits(num) {
     return num.toString().padStart(2, "0");
@@ -58,10 +58,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
   }
 
-  confirmDataBtn.addEventListener("click", (event) => {
-    window.location.href = window.location.href.replace(
-      "payment",
-      "pagamento-1"
-    );
-  });
+  // confirmDataBtn.addEventListener("click", (event) => {
+  //   window.location.href = window.location.href.replace(
+  //     "payment",
+  //     "pagamento-1"
+  //   );
+  // });
 });
